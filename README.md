@@ -35,8 +35,9 @@ This talk has the objective to show how powerful modules are specially combined 
 - Use ``angular.directive`` and ``angular.service``
 - Service to access GitHub API
 - Directive to configure the UI widget
-- Use unit tests
+- ~~Use unit tests~~
 - Be published in bower
+- **UPDATE:** Good option, could be this repo: [lucasconstantino/angular-github-repo](https://github.com/lucasconstantino/angular-github-repo)
 
 ### Directive options
 More resources can be found in:
