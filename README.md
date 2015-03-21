@@ -9,25 +9,29 @@ This talk has the objective to show how powerful modules are specially combined 
 - Build slides
   - Title + little introduction
   - About me *(contacts)*
-  - What are the modular term and why do it
-  - Ask audience: **Who has already used any plugin before?**
-  - Talk about a plugin UI (GitHub repositories as jQuery plugin)
-    - Show the code using a **linked** JS plugin *(non-semantically)*
+  - Ask audience: **Who has already used any plugin before? Or maybe a jQuery plugin?**
+  - **1 -** Talk about a plugin UI (GitHub repositories as jQuery plugin)
+    - Show the code using a **jQuery** plugin *(non-semantically)*
     - Show the code using directive *(semantically)*
   - Ask audience: **Who know AngularJS?**
+  - **2 -** Explain what AngularJS is (concept of extended HTML)
   - Show AngularJS **always using the best practices**
-  - Explain what AngularJS is
-  - Tell a little bit about directives
-  - Show a *Hello World* sample and how to use it
-  - Explain how do AngularJS modules work
+  - **3 -** Introduction to AngularJS directives
+  - Show a *Hello World* sample
+  - How to use it (with dependency injection)
+  - **4 -** Introduction to AngularJS modules
   - Show how does the GitHub component work **(directive + service)**
   - Explain each one of the directive attributes *(with examples if possible)*
-  - How to make your own custom directive
-    - Search before build one
-    - About generators
-    - How to publish in [bower packages](http://bower.io/search/)
-  - Show materials to get continue studying
-  - The end
+  - **5 -** Introduction to app structure
+  - **6 -** How to make your own component
+      - Search before build one
+      - About generators (like Yeoman)
+  - **7 -** How to use dependencies management with [bower.io](http://bower.io/) *(download and dependency injection)*
+  - **8 -** How to publish as a [bower package](http://bower.io/search/)
+  - **9 -** Introduction to keep learning AngularJS modularization
+  - Show the AngularJS book
+  - Show the new AngularJS 2.0 *(and tell them to get study)*
+  - **10 -** The end
 - Study a lot the slides
 - Rehearse a lot more
 
