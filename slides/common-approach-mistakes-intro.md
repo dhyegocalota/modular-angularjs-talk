@@ -2,4 +2,4 @@
 
 - Files structure
 - Modules (or lack thereof)
-- Too many controllers responsability
+- Too many controllers responsibility

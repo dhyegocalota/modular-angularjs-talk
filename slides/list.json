@@ -12,9 +12,9 @@
     "tab-semantic-plugin.md"
   ],
   [
-    "ng-intro.md",
-    "why-ng.md"
+    "ng-intro.md"
   ],
+  "why-ng.md",
   [
     "data-binding-intro.md",
     "data-binding-jquery-example.md",
@@ -44,5 +44,22 @@
     "wrong-todo-app-js-example.md"
   ],
   "something-is-wrong.md",
-  "common-approach-mistakes-intro.md"
+  "common-approach-mistakes-intro.md",
+  [
+    "mistake-todo-app-files-structure-intro.md",
+    "mistake-todo-app-files-structure-problem.md",
+    "mistake-todo-app-files-structure-solution.md"
+  ],
+  [
+    "mistake-todo-app-modules-intro.md",
+    "mistake-todo-app-modules-problem.md",
+    "mistake-todo-app-modules-solution.md"
+  ],
+  [
+    "mistake-todo-app-too-many-responsibility-intro.md",
+    "mistake-todo-app-too-many-responsibility-problem.md",
+    "mistake-todo-app-too-many-responsibility-solution.md",
+    "mistake-todo-app-too-many-responsibility-code-solution.md"
+  ],
+  "surprise.md"
 ]
