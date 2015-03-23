@@ -10,6 +10,7 @@ module.exports = function(grunt) {
         files: [
           'index.html',
           'slides/{,*/}*.{md,html}',
+          'css/*.css',
           'js/*.js'
         ]
       },

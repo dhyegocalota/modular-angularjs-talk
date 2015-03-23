@@ -11,13 +11,14 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-        <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.min.css">
-    
+        <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.css">
+
         <link rel="stylesheet" href="bower_components/reveal.js/css/theme/solarized.css" id="theme">
-    
+
+        <link rel="stylesheet" href="css/reveal.css" id="theme-custom">
 
         <!-- For syntax highlighting -->
-        <link rel="stylesheet" href="bower_components/reveal-highlight-themes/styles/zenburn.css" id="highlight-theme">
+        <link rel="stylesheet" href="bower_components/reveal-highlight-themes/styles/monokai_sublime.css" id="highlight-theme">
 
         <!-- If the query includes 'print-pdf', use the PDF print sheet -->
         <script>
@@ -58,7 +59,7 @@
         </div>
 
         <script src="bower_components/reveal.js/lib/js/head.min.js"></script>
-        <script src="bower_components/reveal.js/js/reveal.min.js"></script>
+        <script src="bower_components/reveal.js/js/reveal.js"></script>w
         <script>
             // Configure Reveal
             // Full list of configuration options available here:
@@ -77,7 +78,10 @@
                     { src: 'bower_components/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
                     { src: 'bower_components/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
                     { src: 'bower_components/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                    { src: 'bower_components/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'bower_components/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() {
+                      hljs.configure({classPrefix: ''});
+                      hljs.initHighlightingOnLoad();
+                    } },
                     { src: 'bower_components/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
                     { src: 'bower_components/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
                     // { src: 'bower_components/reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }

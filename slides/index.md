@@ -1,10 +1,2 @@
-
 # Modular AngularJS
-
-From the terminal, pop in:
-
-  ```yo reveal:slide "Slide Title"```
-
-Available options:
-
- ```--markdown --attributes --notes```
+![AngularJS](img/angularjs.png)
