@@ -1,4 +1,4 @@
-## Semantic tab plugin
+## Semantic tab component
 ```html
 <tabset>
   <tab heading="Title 1">

@@ -1,4 +1,4 @@
-## Non-Semantic tab plugin
+## Non-Semantic tab component
 ```html
 <div id="tab">
   <ul class="tab-head">

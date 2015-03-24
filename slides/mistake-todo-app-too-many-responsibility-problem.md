@@ -1,5 +1,5 @@
 ## Never
-### Let controllers do other lot of things
+### Let controllers do a lot of *other things*
 #### (like persist) 
 
 controllers/todo.js

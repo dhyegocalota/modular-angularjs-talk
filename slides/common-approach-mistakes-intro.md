@@ -1,5 +1,6 @@
 ## Common approach mistakes
-
-- Files structure
-- Modules (or lack thereof)
-- Too many controllers responsibility
+<ul>
+  <li class="fragment">Files structure</li>
+  <li class="fragment">Modules (or lack thereof)</li>
+  <li class="fragment">Too many controllers responsibility</li>
+</ul>

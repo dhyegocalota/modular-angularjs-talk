@@ -2,15 +2,11 @@
   "index.md",
   "about-me.md",
   [
+    "plugins-intro.md",
     "vanilla-plugins.md",
     "jquery-plugins.md"
   ],
-  [
-    "tab-plugin.md",
-    "tab-non-semantic-plugin.md",
-    "what.md",
-    "tab-semantic-plugin.md"
-  ],
+  "maybe.md",
   [
     "ng-intro.md"
   ],
@@ -29,10 +25,13 @@
   ],
   [
     "directives-intro.md",
-    "directives-example.md"
+    "directives-tab-example.md",
+    "directives-tab-non-semantic.md",
+    "what.md",
+    "directives-tab-semantic.md"
   ],
   "looks-interesting.md",
-  "non-modular-thinking.md",
+  "lets-thinking.md",
   [
     "todo-app-intro.md",
     "todo-app-features.md"
@@ -61,5 +60,27 @@
     "mistake-todo-app-too-many-responsibility-solution.md",
     "mistake-todo-app-too-many-responsibility-code-solution.md"
   ],
-  "surprise.md"
+  "surprise.md",
+  "tips-intro.md",
+  "tips-do-not-reinvent-the-wheel.md",
+  [
+    "tips-how-to-look-for-a-component.md",
+    "tips-where-to-find-components.md",
+    "angularjs-org.md",
+    "bower-io.md",
+    "ngmodules-org.md"
+  ],
+  "tips-how-to-use-a-component.md",
+  "excited.md",
+  [
+    "tips-to-write-your-own-component-intro.md",
+    "tips-to-write-your-own-component-write-tests.md",
+    "tips-to-write-your-own-component-doc.md",
+    "tips-to-write-your-own-component-styleguide.md",
+    "tips-to-write-your-own-component-use-generators.md",
+    "tips-to-write-your-own-component-publish-it.md"
+  ],
+  "questions.md",
+  "challenge-accepted.md",
+  "the-end.md"
 ]

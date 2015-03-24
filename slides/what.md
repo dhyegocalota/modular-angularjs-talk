@@ -1,1 +1,1 @@
-![What?](img/what.jpg)
+![What?](img/what.gif)

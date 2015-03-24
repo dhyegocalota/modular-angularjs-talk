@@ -1,4 +1,4 @@
-## Data-binding AngularJS example
+## Data-binding example
 ![Hello world](img/data-binding-example.jpg)
 
 ```html
