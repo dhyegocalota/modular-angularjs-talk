@@ -14,6 +14,7 @@ module.exports = function(grunt) {
           'js/*.js'
         ]
       },
+
       index: {
         files: [
           'templates/_index.html',
@@ -22,11 +23,13 @@ module.exports = function(grunt) {
         ],
         tasks: ['build']
       },
+
       jshint: {
         files: ['js/*.js'],
         tasks: ['jshint']
       }
     },
+
     connect: {
       livereload: {
         options: {
@@ -38,12 +41,15 @@ module.exports = function(grunt) {
         }
       }
     },
+
     jshint: {
       options: {
         jshintrc: '.jshintrc'
       },
+
       all: ['js/*.js']
     },
+
     copy: {
       dist: {
         files: [
@@ -52,7 +58,9 @@ module.exports = function(grunt) {
             src: [
               'slides/**',
               'bower_components/**',
-              'js/**'
+              'js/**',
+              'css/**',
+              'img/**'
             ],
             dest: 'dist/'
           }, {
@@ -62,6 +70,21 @@ module.exports = function(grunt) {
             filter: 'isFile'
           }
         ]
+      }
+    },
+
+    buildcontrol: {
+      options: {
+        dir: 'dist',
+        commit: true,
+        push: true,
+        message: 'Built from %sourceCommit% on branch %sourceBranch%'
+      },
+      pages: {
+        options: {
+          remote: 'git@github.com:dhyegofernando/modular-angularjs-talk.git',
+          branch: 'gh-pages'
+        }
       }
     }
   });
@@ -120,5 +143,20 @@ module.exports = function(grunt) {
     ]
   );
 
-  grunt.registerTask('default', ['test', 'serve']);
+  grunt.registerTask(
+    'deploy',
+    'Deploy to Github pages',
+    [
+      'dist',
+      'buildcontrol'
+    ]
+  );
+
+  grunt.registerTask(
+    'default',
+    [
+      'test',
+      'serve'
+    ]
+  );
 };
