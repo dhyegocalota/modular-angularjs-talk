@@ -5,4 +5,5 @@
 
 [twitter.com/dhyegofernando](https://twitter.com/dhyegofernando)
 
-[fb.com/dhyegofernando](https://fb.com/dhyegofernando)
+### Slides
+[bit.ly/1F3KyH2](http://bit.ly/1F3KyH2)
