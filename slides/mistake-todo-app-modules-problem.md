@@ -12,5 +12,10 @@ angular.module('app.controllers')
   }])
   .controller('OtherController', ['$scope', function($scope) {
     // ...
-  }]);;
+  }]);
 ```
+
+note:
+  Remember to talk about the Alvaro's example: 
+  - Ionic app uses a API angular module
+  - Website also uses that same API angular module 
