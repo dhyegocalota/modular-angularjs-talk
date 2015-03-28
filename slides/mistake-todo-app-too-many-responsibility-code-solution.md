@@ -1,23 +1,23 @@
 todo/todo.controller.js
 ```javascript
 angular.module('todo')
-  .controller('TodoController', ['$scope', 'Todo', function($scope) {
-    $scope.todos = Todo.get();
-    $scope.addTodo = function() { Todo.add(); };
-    $scope.remaining = function() { Todo.count(); };
-    $scope.archive = function() { Todo.archive(); };
+  .controller('TodoController', ['$scope', 'Tasks', function($scope) {
+    $scope.tasks = Tasks.get();
+    $scope.addTask = function() { Tasks.add(); };
+    $scope.remaining = function() { Tasks.count(); };
+    $scope.archive = function() { Tasks.archive(); };
   }]);
 ```
 
-todo/todo.service.js
+tasks/tasks.service.js
 ```javascript
-angular.module('todo')
-  .factory('Todo', ['$http', function($http) {
+angular.module('tasks')
+  .factory('Tasks', ['$http', function($http) {
     return {
-      get: function() { // ... },
-      add: function() { // ... },
-      count: function() { // ... },
-      archive: function() { // ... }
+      get: function() { $http.get(); },
+      add: function() { $http.post(); },
+      count: function() { $http.get().length; },
+      archive: function() { $http.put(); }
     };
   }]);
 ```

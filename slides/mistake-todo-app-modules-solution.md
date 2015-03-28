@@ -5,8 +5,8 @@ todo/todo.controller.js
 ```javascript
 angular.module('todo')
   .controller('TodoController', ['$scope', function($scope) {
-    $scope.todos = [];
-    $scope.addTodo = function() { // ... };
+    $scope.tasks = [];
+    $scope.addTask = function() { // ... };
     $scope.remaining = function() { // ... };
     $scope.archive = function() { // ... };
   }]);

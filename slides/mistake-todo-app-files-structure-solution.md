@@ -9,10 +9,12 @@
 |   |   |-- todo.config.js
 |   |   |-- todo.controller.js
 |   |   |-- todo.controller.spec.js
-|   |   |-- todo.service.js
-|   |   |-- todo.service.spec.js
-|   |   |-- todo.directive.js
-|   |   |-- todo.directive.spec.js
+|   |-- tasks/
+|   |   |-- tasks.module.js
+|   |   |-- tasks.service.js
+|   |   |-- tasks.service.spec.js
+|   |   |-- tasks.directive.js
+|   |   |-- tasks.directive.spec.js
 |   |-- app.module.js
 |   |-- index.html
 ```
