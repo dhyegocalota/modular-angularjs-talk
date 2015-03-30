@@ -1,5 +1,5 @@
 # Modular AngularJS Talk
-Slides from my talk called ```Modular AngularJS talk```. You can see the [live demo here](http://dhyegofernando.github.io/modular-angularjs-talk/).
+Slides from my talk called ```Modular AngularJS talk```. You can see the it [online here](http://dhyegofernando.github.io/modular-angularjs-talk/).
 
 ## Introduction
 This talk has the objective to show how powerful components are specially combined with AngularJS.
@@ -22,7 +22,7 @@ This talk has the objective to show how powerful components are specially combin
 
 6. Install dependencies
    ```sh
-   $ npm install
+   $ npm install & bower install
    ```
 
 7. Serve the presentation and monitor source files for changes
