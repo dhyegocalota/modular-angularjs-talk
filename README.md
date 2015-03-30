@@ -1,5 +1,5 @@
 # Modular AngularJS Talk
-Slides from my talk called ```Modular AngularJS talk```.
+Slides from my talk called ```Modular AngularJS talk```. You can see the [live demo here](http://dhyegofernando.github.io/modular-angularjs-talk/).
 
 ## Introduction
 This talk has the objective to show how powerful components are specially combined with AngularJS.
